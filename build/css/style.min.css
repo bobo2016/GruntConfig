@@ -1,0 +1,2 @@
+/*!minified css 2015-06-04*/
+body,html,ol,ul{margin:0;padding:0}.info{color:red;font:100% Helvetica,sans-serif}.info .p{background:red}.info+p{background:#fff}.info.hello,.info>p{border:1px solid #000}.error,.message,.success,.warning{border:1px solid #ccc;padding:10px;color:#333}.success{border-color:green}.error{border-color:red}.warning{border-color:#ff0}.box{-webkit-border-radius:10px;-o-border-radius:10px;-ms-border-radius:10px;-moz-border-radius:10px;border-radius:10px}body{background:purple}

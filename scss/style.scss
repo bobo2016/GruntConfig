@@ -1,0 +1,64 @@
+/*****************************
+Author: Jingbo Zhang
+Date:06/02/2015
+******************************/
+
+@import 'reset';
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color : red;
+$page-color : #fff;
+
+.info{
+	color: red;
+	font-size: 20px;
+	font: 100% $font-stack;
+	.p{
+ 	   background: $primary-color;
+	}
+
+	+p{
+		background: $page-color;
+	}
+
+	>p{
+		border: 1px solid #000;
+	}
+
+	&.hello{
+		border: 1px solid #000;
+	}
+}
+
+.message{
+	border: 1px solid #ccc;
+	padding: 10px;
+	color: #333;
+}
+
+.success{
+	@extend .message;
+	border-color: green;
+}
+
+.error{
+	@extend .message;
+	border-color: red;
+}
+
+.warning{
+	@extend .message;
+	border-color: yellow;
+}
+
+@mixin border-radius($radius){
+	-webkit-border-radius: $radius;
+	-o-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+.box{
+	@include border-radius(10px);
+}
