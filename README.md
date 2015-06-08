@@ -11,6 +11,7 @@ Grunt initial configuration
 
 
 ### How to use:
+```JavaScript
 1. $ npm install (use root) //this will install all the packages needed 
 2. $ grunt (default)
 3. $ grunt outputcss (compile scss files)
